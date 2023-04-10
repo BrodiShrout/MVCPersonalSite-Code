@@ -319,12 +319,12 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-    color: #222222;
-    font-size: 28px;
-    cursor: pointer;
-    display: none;
-    line-height: 0;
-    transition: 0.5s;
+  color: #400099;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -415,11 +415,11 @@ h6 {
   font-size: 12px;
 }
 
-    .navbar-mobile .dropdown ul a:hover,
-    .navbar-mobile .dropdown ul .active:hover,
-    .navbar-mobile .dropdown ul li:hover > a {
-        color: #400099;
-    }
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+  color: #d9b3ff;
+}
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
@@ -1453,6 +1453,7 @@ section {
   color: #222222;
   font-size: 14px;
   text-align: center;
+  height: 2.5rm;
 }
 
 #footer .credits {
