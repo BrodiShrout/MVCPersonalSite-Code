@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MimeKit;
 using MVCPersonalSite.Models;
 using System.Diagnostics;
+using MailKit.Net.Smtp;
 
 namespace MVCPersonalSite.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IConfiguration _config;
+        public HomeController(IConfiguration config)
         {
-            _logger = logger;
+            _config = config;
         }
 
         public IActionResult Index()
@@ -18,7 +19,7 @@ namespace MVCPersonalSite.Controllers
             return View();
         }
 
-        public IActionResult about()
+        public IActionResult About()
         {
             return View();
         }
@@ -28,6 +29,22 @@ namespace MVCPersonalSite.Controllers
             return View();
         }
 
+        public IActionResult Portfolio()
+        {
+            ViewBag.Project = ProjectViewModel.GetProjects();
+            return View();
+        }
+
+        public IActionResult PortfolioDetails(int? id)
+        {
+            return View(ProjectViewModel.GetProjects().FirstOrDefault(x => x.ID == id));
+        }
+
+
+        public IActionResult Resume()
+        { 
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

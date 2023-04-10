@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Email Confirmation";
+}
+@model MVCPersonalSite.Models.ContactViewModel
+<main id="main">
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>I can be reached using the information below anytime between the hours of 9am and 6pm.</p>
+            </div>
+
+            <div>
+                <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99214.51586742463!2d-94.349191879215!3d39.00496456225435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c11a4d25e0e57b%3A0x109f2216ac1f2d35!2sBlue%20Springs%2C%20MO!5e0!3m2!1sen!2sus!4v1678471100401!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-4">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Blue Springs, Mo</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>brodi672@outlook.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>Email to Find Out</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+                        <h3>Message Sent!</h3>
+                        <p>
+                            Thank you for contacting us! A member of our team will respond to your message using the provided email address, @Model.Email, in the next 2 to 3 business days.
+                        </p>
+
+                        <br />
+
+                        <div class="offset-3 col-md-6 text-center">
+                            <p>
+                                You sent the following message on
+                                @DateTime.Now.Date.ToShortDateString() at
+                                @DateTime.Now.ToShortTimeString() :
+                            </p>
+                        </div>
+
+                        <br />
+
+                        <div class="offset-3 col-md-6">
+                            <p>
+                                <em>@Html.Raw(Model.Message)</em>
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </section><!-- End Contact Section -->
+
+</main>
