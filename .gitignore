@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MVCPersonalSite/appsettings.json
+/MVCPersonalSite/_Archive/about.html
+/MVCPersonalSite/_Archive/contact.html
+/MVCPersonalSite/_Archive/index.html
+/MVCPersonalSite/_Archive/Languages.html
+/MVCPersonalSite/_Archive/portfolio.html
+/MVCPersonalSite/_Archive/portfolio-details-API.html
+/MVCPersonalSite/_Archive/portfolio-details-da.html
+/MVCPersonalSite/_Archive/portfolio-details-react.html
+/MVCPersonalSite/_Archive/portfolio-details-sat.html
+/MVCPersonalSite/_Archive/portfolio-details-sf.html
+/MVCPersonalSite/_Archive/resume.html
+/MVCPersonalSite/_Archive/resume/Brodi Shrouts Resume-for-pw.docx
