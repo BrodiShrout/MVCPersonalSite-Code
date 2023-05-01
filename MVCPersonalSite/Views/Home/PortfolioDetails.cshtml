@@ -1,12 +1,12 @@
-﻿@model MVCPersonalSite.Models.ProjectViewModel
-@{
-    ViewData["Title"] = "Portfolio Details";
+﻿@{
+    ViewData["Title"] = "Dungeon Application Details";
+    Layout = "~/Views/Shared/_LayoutDetails.cshtml";
 }
 
 <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details-da" class="portfolio-details-da">
+    <section id="portfolio-details" class="portfolio-details">
         <div class="container">
 
             <div class="row gy-4">
@@ -16,15 +16,15 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="~/@Model.Image1" alt="Picture of the dungeon application code">
+                                <img class="img-fluid vh-75 m-auto" src="~/images/Da-Code-1.png" alt="Picture of the dungeon application code">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="~/@Model.Image2" alt="Picture of the dungeon application code">
+                                <img class="img-fluid vh-75 m-auto" src="~/images/Da-Code-2.png" alt="Picture of the dungeon application code">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="~/@Model.Image3" alt="Picture of the dungeon application console displaying a win">
+                                <img class="img-fluid vh-75 m-auto" src="~/images/Da-Code-3.png" alt="Picture of the dungeon application code">
                             </div>
 
                         </div>
@@ -37,15 +37,21 @@
                         <h3>Dungeon Application  information</h3>
                         <ul>
                             <li><strong>Category</strong>: C# Console App</li>
-                            <li><strong>Client</strong>: none</li>
-                            <li><strong>Project date</strong>: @Model.ProjectDate.ToShortDateString()</li>
-                            <li><strong>Project URL</strong>: <a href="@Model.GitHub" target="_blank">Dungeon Application Github</a></li>
+                            <li><strong>Client</strong>: Centriq Project</li>
+                            <li><strong>Project date</strong>: 06 March, 2023</li>
+                            <li><strong>GitHub URL</strong>: <a href="https://github.com/BrodiShrout/DungeonApplication" target="_blank">Dungeon Application Github</a></li>
                         </ul>
                     </div>
                     <div class="portfolio-description">
-                        <h2>@Model.Name</h2>
+                        <h2>This is the C# dungeon application app</h2>
                         <p>
-                            @Model.Description
+                            This it is a .NET Core Console Application where the foundational concepts of C# as a language were learned.
+                            <br>
+                            <br>
+                            <strong>Objective of This Project:</strong>
+                            <br>
+                            <br>
+                            The Dungeon Application is intended to showcase your C# skills. It will allow you to demonstrate your ability to break down multi-stage processes into steps and to design complex logical structures.
                         </p>
                     </div>
                 </div>
@@ -53,106 +59,6 @@
             </div>
 
         </div>
-    </section><!-- End Portfolio Details Section -->
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details-API" class="portfolio-details">
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-8">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="~/@Model.Image1" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/@Model.Image2" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/@Model.Image3" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="portfolio-info">
-                        <h3>Web API Project Information</h3>
-                        <ul>
-                            <li><strong>Category</strong>: React & CRUD</li>
-                            <li><strong>Client</strong>: none</li>
-                            <li><strong>Project date</strong>: @Model.ProjectDate.ToShortDateString()</li>
-                            <li><strong>Project URL</strong>: <a href="@Model.GitHub" target="_blank">ToDo</a></li>
-                        </ul>
-                    </div>
-                    <div class="portfolio-description">
-                        <h2>@Model.Name</h2>
-                        <p>
-                            @Model.Description
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Portfolio Details Section -->
-
-     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details-react" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="~/@Model.Image1" alt="React">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="~/@Model.Image2" alt="React">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="~/@Model.Image3" alt="React">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>React To Do Application Information</h3>
-              <ul>
-                <li><strong>Category</strong>: React</li>
-                <li><strong>Client</strong>: none</li>
-                <li><strong>Project date</strong>: @Model.ProjectDate.ToShortDateString()</li>
-                <li><strong>Project URL</strong>: <a href="@Model.GitHub" target="_blank">ToDo</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>@Model.Name</h2>
-                <p>
-                 @Model.Description
-                </p>
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section><!-- End Portfolio Details Section -->
 
 </main><!-- End #main -->

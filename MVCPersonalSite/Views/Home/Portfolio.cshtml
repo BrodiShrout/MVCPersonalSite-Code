@@ -10,39 +10,120 @@
 
             <div class="section-title">
                 <h2>Portfolio</h2>
-                <p>Currently under construction with only one of the below projects being recently completed. More updates coming soon!</p>
+                <p>A page deticated to our projects we've made to show case the skills we have learned.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                         <li data-filter="*" class="filter-active">PLACEHOLDER</li>
-                              <li data-filter=".filter-app">APP</li>
-                              <li data-filter=".filter-card">PROJECTS</li>
-                              <li data-filter=".filter-web">WEB</li>
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">App</li>
+                        <li data-filter=".filter-card">React</li>
+                        <li data-filter=".filter-web">Web</li>
                     </ul>
                 </div>
             </div>
 
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                @foreach (ProjectViewModel item in ViewBag.Project)
-                {
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="~/images/Screenshot 2023-03-09 141856.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Dungeon Application</h4>
-                                <p>This it is a .NET Core Console Application where the foundational concepts of C# as a language were learned.
-                               </p>
-                                <div class="portfolio-links">
-                                    <a href="~/images/dungeonVideo.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dungeon Application"><i class="bx bx-plus"></i></a>
-                                    <a href="@Url.Action("PortfolioDetails","Home", new { @id = 1} )" title="Dungeon Application"><i class="bx bx-link"></i></a>
-                                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="~/images/Screenshot 2023-03-09 141856.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Dungeon Application</h4>
+                            <p>
+                                This it is a .NET Core Console Application where the foundational concepts of C# as a language were learned.
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="~/images/dungeonVideo.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dungeon Application"><i class="bx bx-plus"></i></a>
+                                <a href="@Url.Action("PortfolioDetails", "Home")"
+                                   class="portfolio-details-lightbox"
+                                   data-glightbox="type: external"
+                                   title="Dungeon Application">
+                                    <i class="bx bx-link"></i>
+                                    </a>
                             </div>
                         </div>
                     </div>
-                } 
                 </div>
+ 
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="~/images/storefront.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Store Front</h4>
+                            <p>The Store Front Application is intended to showcase your ability to use both SQL and .Net MVC Core to build a foundational store website.</p>
+                            <div class="portfolio-links">
+                                <a href="~/images/StoreFrontVid.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Store Front"><i class="bx bx-plus"></i></a>
+                                <a href="@Url.Action("PortfolioDetails2", "Home")"
+                                   class="portfolio-details-lightbox"
+                                   data-glightbox="type: external"
+                                   title="Store Front">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-React">
+                    <div class="portfolio-wrap">
+                        <img src="~/images/ToDo.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>ToDo API</h4>
+                            <p>The Web API project is intended to showcase your ability to create a RESTful API that can be consumed by another application.</p>
+                            <div class="portfolio-links">
+                                <a href="~/images/ToDo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="API"><i class="bx bx-plus"></i></a>
+                                <a href="@Url.Action("PortfolioDetails3", "Home")"
+                                   class="portfolio-details-lightbox"
+                                   data-glightbox="type: external"
+                                   title="Dungeon Application">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-React">
+                    <div class="portfolio-wrap">
+                        <img src="~/images/REACT.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>React ToDo</h4>
+                            <p>The React To Do Application is a portfolio project that will allow you to showcase your ability to build single page applications using React JS.</p>
+                            <div class="portfolio-links">
+                                <a href="~/images/REACT.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="React"><i class="bx bx-plus"></i></a>
+                                <a href="@Url.Action("PortfolioDetails4", "Home")"
+                                   class="portfolio-details-lightbox"
+                                   data-glightbox="type: external"
+                                   title="Dungeon Application">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-App">
+                    <div class="portfolio-wrap">
+                        <img src="~/images/SAT.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>SAT</h4>
+                            <p>SAT</p>
+                            <div class="portfolio-links">
+                                <a href="~/images/SAT.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SAT"><i class="bx bx-plus"></i></a>
+                                <a href="@Url.Action("PortfolioDetails5", "Home")"
+                                   class="portfolio-details-lightbox"
+                                   data-glightbox="type: external"
+                                   title="Dungeon Application">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
     </section><!-- End Portfolio Section -->

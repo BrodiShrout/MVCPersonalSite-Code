@@ -45,9 +45,9 @@ namespace MVCPersonalSite.Models
                 Thumbnail = "~/storefront.png",
                 URL = null,
                 GitHub = "",
-                Image1 = "storefront.png",
-                Image2 = "storefront.png",
-                Image3 = "storefront.png",
+                Image1 = "~/storefront.png",
+                Image2 = "/storefront.png",
+                Image3 = "~/storefront.png",
                 Filter = "web"
             };
             var project3 = new ProjectViewModel()
