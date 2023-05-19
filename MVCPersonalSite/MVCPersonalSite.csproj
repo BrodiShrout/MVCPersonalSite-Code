@@ -221,7 +221,6 @@
     <None Include="wwwroot\Classmates1\Tanner.jpg" />
     <None Include="wwwroot\Classmates1\Will.jpeg" />
     <None Include="wwwroot\contact.html" />
-    <None Include="wwwroot\images\API.png" />
     <None Include="wwwroot\images\Da-Code-1.png" />
     <None Include="wwwroot\images\Da-Code-2.png" />
     <None Include="wwwroot\images\Da-Code-3.png" />
@@ -230,10 +229,7 @@
     <None Include="wwwroot\images\logo-no-background.png" />
     <None Include="wwwroot\images\logo-no-background1.png" />
     <None Include="wwwroot\images\logo-no-background3.png" />
-    <None Include="wwwroot\images\REACT.png" />
-    <None Include="wwwroot\images\SAT.png" />
     <None Include="wwwroot\images\Screenshot 2023-03-09 141856.png" />
-    <None Include="wwwroot\images\Screenshot 2023-03-09 211414.png" />
     <None Include="wwwroot\images\storefront.png" />
     <None Include="wwwroot\index.html" />
     <None Include="wwwroot\Languages.html" />
