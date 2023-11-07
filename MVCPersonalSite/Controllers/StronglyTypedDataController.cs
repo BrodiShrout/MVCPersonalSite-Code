@@ -46,6 +46,10 @@ namespace MVCPersonalSite.Controllers
 
             mm.From.Add(new MailboxAddress("Sender", _config.GetValue<string>("Credentials:Email:User")));
 
+            //string client = _config.GetValue<string>("Credentials:Email:Client");
+
+            //string password = _config.GetValue<string>("Credentials:Email:Password");
+
             //The recipient of this email will be our personal address, also stored in appsettings.json
             mm.To.Add(new MailboxAddress("Personal", _config.GetValue<string>("Credentials:Email:Recipient")));
 
@@ -62,10 +66,11 @@ namespace MVCPersonalSite.Controllers
             #endregion
 
             #region Making The send email info(?)
-            //The using directive will create an SMTP Client object used to send the email. Once all the code inside is done, it will clase any open connections and dispose the objects for use
+
             using (var Client = new SmtpClient())
             {
                 Client.Connect(_config.GetValue<string>("Credentials:Email:Client"), 8889);
+                //Client.Connect(_config.GetValue<string>("Credentials:Email:Client"), 25);
                 try
                 {
                     //login to the mail server using the cradentials for our email user

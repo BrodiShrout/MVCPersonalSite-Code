@@ -20,6 +20,14 @@
             </div>
 
             <div class="row mt-5">
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class=" row font-italic">
+                        <p class="text-danger" style="font-style: italic">
+                            @Html.Raw(ViewBag.ErrorMessage)
+                        </p>
+                    </div>
+                }
 
                 <div class="col-lg-4">
                     <div class="info">
