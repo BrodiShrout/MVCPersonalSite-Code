@@ -121,13 +121,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.14" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\forms\" />
-    <Folder Include="_Archive\" />
+    <Folder Include="wwwroot\_Archive\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -242,6 +242,119 @@
     <None Include="wwwroot\portfolio.html" />
     <None Include="wwwroot\resume.html" />
     <None Include="wwwroot\resume\Brodi Shrouts Resume-for-pw.docx" />
+    <None Include="wwwroot\_Archive\about.html" />
+    <None Include="wwwroot\_Archive\assets\css\style.css" />
+    <None Include="wwwroot\_Archive\assets\img\CodePC.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-no-background.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-no-background1.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-no-background3.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-white.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-white2.png" />
+    <None Include="wwwroot\_Archive\assets\img\logo-white3.png" />
+    <None Include="wwwroot\_Archive\assets\js\main.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\aos\aos.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\aos\aos.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.esm.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\css\animations.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\css\boxicons.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\css\boxicons.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\css\transformations.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <None Include="wwwroot\_Archive\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\css\glightbox.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\css\glightbox.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\css\plyr.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\css\plyr.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\js\glightbox.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\glightbox\js\glightbox.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\php-email-form\validate.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\purecounter\purecounter_vanilla.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\swiper\swiper-bundle.min.css" />
+    <None Include="wwwroot\_Archive\assets\vendor\swiper\swiper-bundle.min.js" />
+    <None Include="wwwroot\_Archive\assets\vendor\swiper\swiper-bundle.min.js.map" />
+    <None Include="wwwroot\_Archive\assets\vendor\waypoints\noframework.waypoints.js" />
+    <None Include="wwwroot\_Archive\Classmates1\Efrain.jpg" />
+    <None Include="wwwroot\_Archive\Classmates1\Jared.png" />
+    <None Include="wwwroot\_Archive\Classmates1\Jason.jpg" />
+    <None Include="wwwroot\_Archive\Classmates1\Kellan.jpeg" />
+    <None Include="wwwroot\_Archive\Classmates1\Luke.jpeg" />
+    <None Include="wwwroot\_Archive\Classmates1\Steve.jpg" />
+    <None Include="wwwroot\_Archive\Classmates1\Tanner.jpg" />
+    <None Include="wwwroot\_Archive\Classmates1\Will.jpeg" />
+    <None Include="wwwroot\_Archive\contact.html" />
+    <None Include="wwwroot\_Archive\index.html" />
+    <None Include="wwwroot\_Archive\Languages.html" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\_Archive\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\_Archive\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\_Archive\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\_Archive\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\_Archive\lib\jquery\LICENSE.txt" />
+    <None Include="wwwroot\_Archive\portfolio-details-API.html" />
+    <None Include="wwwroot\_Archive\portfolio-details-da.html" />
+    <None Include="wwwroot\_Archive\portfolio-details-react.html" />
+    <None Include="wwwroot\_Archive\portfolio-details-sat.html" />
+    <None Include="wwwroot\_Archive\portfolio-details-sf.html" />
+    <None Include="wwwroot\_Archive\portfolio.html" />
+    <None Include="wwwroot\_Archive\resume.html" />
+    <None Include="wwwroot\_Archive\resume\Brodi Shrouts Resume-for-pw.docx" />
   </ItemGroup>
 
   <ItemGroup>

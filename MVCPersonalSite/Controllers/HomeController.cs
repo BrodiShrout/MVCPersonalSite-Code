@@ -40,6 +40,7 @@ namespace MVCPersonalSite.Controllers
         public IActionResult PortfolioDetails3() => View();
         public IActionResult PortfolioDetails4() => View();
         public IActionResult PortfolioDetails5() => View();
+        public IActionResult PortfolioDetails6() => View();
 
 
         public IActionResult Resume()
